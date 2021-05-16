@@ -25,7 +25,7 @@ Kod çalışmıyorsa instagramın html veya css çekirdeklerinde değişiklik ol
 Kodu tekrar ayağa kaldırmak için basit şekilde butonların xpath yollarını kopyalayıp kodda değiştirmeniz gerekmektedir.
 Bana bildirirseniz ben de düzeltebilirim.
 
-- iletişim : fatihfurkanersoy51@gmail.com
+- iletişim : fatihfurkanersoy2@gmail.com
 - Twitter  : @fatihfurkaan0
 - LinkedIn : https://www.linkedin.com/in/fatihfurkanersoy/
 - Instagram: @fatihfurkanersoy
