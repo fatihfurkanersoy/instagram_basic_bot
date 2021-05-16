@@ -1,4 +1,4 @@
-# INSTAGRAM BOT - GET NAME OF THE FOLLOWERS WITH PYTHON
+# INSTAGRAM BOT - PYTHON İLE ADI ALIN VE TAKİPÇİLERİ TAKİP EDİN
 
 By connecting to your Instagram account, it automatically gets the name of the followers of another account you want or the name of the likes of one of the photos.
 If you want to send follow-up requests to these names, it can do that too.
