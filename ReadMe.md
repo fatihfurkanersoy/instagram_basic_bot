@@ -3,6 +3,8 @@
 By connecting to your Instagram account, it automatically gets the name of the followers of another account you want or the name of the likes of one of the photos.
 If you want to send follow-up requests to these names, it can do that too.
 
+### Kod açıklaması : https://youtu.be/eLXP3Lm2A5o 
+
 ## Instagram'da otomatik olarak takip istegi atmak  
 
 Merhaba, bu projede yapılmak istenen basit bir python koduyla instagram hesabınızı otomatik olarak kontrol edebilmenizi sağlamaktır.
