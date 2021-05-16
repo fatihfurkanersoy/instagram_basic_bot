@@ -2,6 +2,10 @@ from selenium import webdriver
 import time
 #import pyautogui
 
+DIV_PATH = "/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]"
+BTN_PATH = "/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]/button/div"
+ANC_PATH = "/html/body/div[1]/section/main/div/header/section/ul/li[2]/a"
+
 
 browser = webdriver.Firefox()
 browser.get("https://www.instagram.com")
@@ -13,15 +17,15 @@ username.send_keys("udemyicin")
 password.send_keys("selenium")
 time.sleep(2)
 try:
-    login = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]")
+    login = browser.find_element_by_xpath(DIV_PATH)
     login.click()
     time.sleep(2)
 except:
-    login = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]/button/div")
+    login = browser.find_element_by_xpath(BTN_PATH)
     login.click()
     time.sleep(2)
     try:
-        login = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]/button/div")
+        login = browser.find_element_by_xpath(BTN_PATH)
         login.click()
         time.sleep(2)
     except:
@@ -31,7 +35,7 @@ time.sleep(2)
 browser.get("https://www.instagram.com/besiktas/")
 time.sleep(2)
 
-login2 = browser.find_element_by_xpath("/html/body/div[1]/section/main/div/header/section/ul/li[2]/a")
+login2 = browser.find_element_by_xpath(ANC_PATH)
 login2.click()
 time.sleep(2)
 
